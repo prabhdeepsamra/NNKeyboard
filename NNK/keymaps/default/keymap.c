@@ -10,7 +10,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 
-  [0] = NoNut_LAYOUT(
+  [0] = NN_LAYOUT(
     KC_ESCAPE,	 KC_U,    KC_I,    KC_O,    KC_J,    KC_K,      KC_L,  
     KC_TAB, 	 KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,      KC_Y,   
     MO(3)	,	 KC_A,    KC_S,    KC_D,    KC_F,    KC_G,      KC_H,    
@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 
-  [1] = NoNut_LAYOUT(
+  [1] = NN_LAYOUT(
     KC_TILDE,	 KC_EXCLAIM,    KC_AT,        KC_HASH,     KC_DOLLAR,     KC_PERCENT,     KC_PIPE,  
     _______, 	 KC_CIRCUMFLEX, KC_AMPERSAND, KC_ASTERISK, KC_LEFT_PAREN, KC_RIGHT_PAREN, KC_COLON,
     _______,	 _______,       KC_UNDERSCORE,KC_PLUS,     KC_LABK,       KC_RABK,        KC_DQUO, 
@@ -30,14 +30,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 
-  [2] = NoNut_LAYOUT(
+  [2] = NN_LAYOUT(
     KC_GRV,	     KC_1,    KC_2,        KC_3,     KC_4,     KC_5,     KC_BSLASH,
     _______, 	 KC_6,    KC_7,        KC_8,     KC_9,     KC_0,     KC_SCOLON, 
     _______,	 _______, KC_MINUS,    KC_EQUAL, KC_COMMA, KC_DOT,   KC_QUOTE, 
     KC_LSHIFT, 	 _______, _______,     _______,  _______,  KC_SLASH, KC_SPC,    
     KC_LCTRL, 	 _______, _______,     _______,  _______,  _______,  _______  
 	),
-  [3] = NoNut_LAYOUT(
+  [3] = NN_LAYOUT(
     _______,	 _______,    _______,        _______,     _______,     _______,     _______,   
     _______, 	 _______,    _______,        _______,     KC_LBRC,     KC_RBRC,     _______,   
     _______,	 _______,    _______,        _______,     KC_LCBR,     KC_RCBR,     _______,  
